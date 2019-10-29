@@ -8,6 +8,9 @@ window.worldObj = {
             "url": "../data/3worldwishes/0Asian/00Tailand|100|13.5/image/重庆|永川|卿陈一家.jpg"
         }, {
             "type": "image",
+            "url": "../data/3worldwishes/0Asian/00Tailand|100|13.5/image/重庆|川外|陈倩2.jpg"
+        },{
+            "type": "image",
             "url": "../data/3worldwishes/0Asian/01Indian|80|23/image/湖北|武汉|彭金秀.jpg"
         }, {
             "type": "image",
@@ -32,9 +35,6 @@ window.worldObj = {
             "url": "../data/3worldwishes/0Asian/08Malasyia|100|6/image/重庆|川外|陈倩.jpg"
         },{
             "type": "image",
-            "url": "../data/3worldwishes/0Asian/08Malasyia|100|6/image/重庆|川外|陈倩2.jpg"
-        },{
-            "type": "image",
             "url": "../data/3worldwishes/0Asian/08Malasyia|100|6/image/重庆|川外|陈倩3.jpg"
         },{
             "type": "image",
@@ -45,20 +45,26 @@ window.worldObj = {
         },{
             "type": "image",
             "url": "../data/3worldwishes/0Asian/09Sichuan|102|32/image/重庆|川外|陈倩同学3.jpg"
+        },{
+            "type": "image",
+            "url": "../data/3worldwishes/0Asian/09Sichuan|102|32/image/重庆|重庆大学|陈倩同学4.jpg"
+        },{
+            "type": "image",
+            "url": "../data/3worldwishes/0Asian/09Sichuan|102|32/image/重庆|川外|陈倩同学5.jpg"
         }],
         "urlJson": "../data/3worldwishes/0Asian/info.json"
     },
     "1NorthAmerica": {
         "urls": [{
             "type": "image",
-            "url": "../data/3worldwishes/1NorthAmerica/1USA|-72|42/image/？|美国印第安纳大学|驴小宝.jpg"
+            "url": "../data/3worldwishes/1NorthAmerica/1USA|-72|42/image/湖南|长沙|陈倩同学.jpg"
         }],
         "urlJson": "../data/3worldwishes/1NorthAmerica/info.json"
     },
     "2SouthAmerican": {
         "urls": [{
             "type": "image",
-            "url": "../data/3worldwishes/2SouthAmerican/1VeRayNeira|-62|-2/image/Katrin'friend|委瑞内拉.JPG"
+            "url": "../data/3worldwishes/2SouthAmerican/1VeRayNeira|-62|-2/image/重庆|永川|徐显奎.jpg"
         }],
         "urlJson": "../data/3worldwishes/2SouthAmerican/info.json"
     },
@@ -79,7 +85,16 @@ window.worldObj = {
     "5Oceania": {
         "urls": [{
             "type": "image",
-            "url": "../data/3worldwishes/5Oceania/1Australia|151|31/image/？|澳大利亚perth.jpg"
+            "url": "../data/3worldwishes/5Oceania/1Australia|151|31/image/贵州|贵阳|邓向尊.jpg"
+        },{
+            "type": "image",
+            "url": "../data/3worldwishes/5Oceania/1Australia|151|31/image/山东|威海|杨冰.jpg"
+        },{
+            "type": "image",
+            "url": "../data/3worldwishes/5Oceania/1Australia|151|31/image/云南|曲靖|严自雄.jpg"
+        },{
+            "type": "image",
+            "url": "../data/3worldwishes/5Oceania/1Australia|151|31/image/云南|昆明理工|张博.jpg"
         }],
         "urlJson": "../data/3worldwishes/5Oceania/info.json"
     },
@@ -91,5 +106,5 @@ window.worldObj = {
         "urlJson": "../data/3worldwishes/6Asian/info.json"
     }
 }
-window.worldArr =["0Asian","6Asian"]
+window.worldArr =["0Asian","1NorthAmerica","2SouthAmerican","5Oceania"]
 // window.worldArr =["0Asian","1NorthAmerica","2SouthAmerican","3Africa","4Europe","5Oceania","6Asian"]

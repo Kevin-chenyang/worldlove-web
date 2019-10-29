@@ -45,7 +45,7 @@ window.titleText = '朋友们的祝福 - wishes  from  friends';
 
   Controller.prototype.time = function(title) { //进去一个状态，过一段时间发生变化
     var self = this;
-    var delay = 12000;
+    var delay = 60000;
 
     setTimeout(
       function() {
