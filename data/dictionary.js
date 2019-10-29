@@ -14,9 +14,6 @@ window.worldObj = {
             "url": "../data/3worldwishes/0Asian/01Indian|80|23/image/湖北|武汉|彭金秀.jpg"
         }, {
             "type": "image",
-            "url": "../data/3worldwishes/0Asian/02ShanXi|112|38/image/山东|威海|杨冰.jpg"
-        }, {
-            "type": "image",
             "url": "../data/3worldwishes/0Asian/02ShanXi|112|38/image/山东|威海|杨老二.jpg"
         }, {
             "type": "image",
@@ -41,7 +38,7 @@ window.worldObj = {
             "url": "../data/3worldwishes/0Asian/09Sichuan|102|32/image/重庆|川外|陈倩同学1.jpg"
         },{
             "type": "image",
-            "url": "../data/3worldwishes/0Asian/09Sichuan|102|32/image/重庆|川外|陈倩同学2.jpg"
+            "url": "../data/3worldwishes/0Asian/09Sichuan|102|32/image/重庆|西南政法|陈倩同学2.jpg"
         },{
             "type": "image",
             "url": "../data/3worldwishes/0Asian/09Sichuan|102|32/image/重庆|川外|陈倩同学3.jpg"
