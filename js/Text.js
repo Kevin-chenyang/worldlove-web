@@ -27,7 +27,7 @@
     if(helper){
       this.helperDiv
       .css('background','rgba(0,0,0,0.2)')
-      .text(helper+'供稿');
+      .text(helper);
     }else{
       this.helperDiv
       .css('background','rgba(0,0,0,0)')
