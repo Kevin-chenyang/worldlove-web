@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>marry me</title>
+    <title>liting marry me</title>
     <style>
     @import url("./css/main.css");
     @import url("./css/animation.css");
@@ -61,22 +61,21 @@
     window.text = new Text('#add');
 
    globalEP.on('globalEnd',function(){
-    slider.hide();
-    $('#add')
-    .css('backgroundImage',"url('../data/3worldwishes/6Asian/2Hangzhou|120|30/image/老板马云|杭州阿里巴巴.JPG')")
-    .css('backgroundSize', '100% auto');
-   
+        slider.hide();
+        $('#add')
+        .css('backgroundImage',"url('../data/3worldwishes/6Asian/2Hangzhou|120|30/image/老板马云|杭州阿里巴巴.JPG')")
+        .css('backgroundSize', '100% auto');
 
-   setTimeout(function(){
-    $('#add')
-    .css('backgroundImage',"url('../data/us/we.jpg')")
-    .css('backgroundSize', '100% auto');
 
-    text.text({region:'感谢',area:'站在我们的舞台上',name:'参与游戏的所有朋友'})
+       setTimeout(function(){
+        $('#add')
+        .css('backgroundImage',"url('../data/us/we.jpg')")
+        .css('backgroundSize', '100% auto');
 
-   },2500);
-}
-   )
+        text.text({region:'感谢',area:'站在我们的舞台上',name:'参与游戏的所有朋友'})
+
+       },2500);
+   })
     var three = new Three.Init(webgl);
     window.globeScenes = new GlobeScenes(worldArr,worldObj,0);
     
