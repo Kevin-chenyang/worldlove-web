@@ -62,6 +62,9 @@ window.worldObj = {
         "urls": [{
             "type": "image",
             "url": "../data/3worldwishes/2SouthAmerican/1VeRayNeira|-62|-2/image/重庆|永川|徐显奎.jpg"
+        },{
+            "type": "image",
+            "url": "../data/3worldwishes/2SouthAmerican/1VeRayNeira|-62|-2/image/重庆|荣昌|刘和耀.jpg"
         }],
         "urlJson": "../data/3worldwishes/2SouthAmerican/info.json"
     },
