@@ -23,7 +23,8 @@
     <div id="bg"></div>
     <div id="article" class="article"></div>
     <div id="articleTitle" class="articleTitle"></div>
-        <div id="start" class="start" style="left:43%">开 始 ( s t a r t )</div>
+<!--        <div id="start" class="start" style="left:43%">开 始 ( s t a r t )</div>-->
+        <div id="start" class="start" style="left:43%" onclick="startPlay()">开启梦幻之旅</div>
 <!--    <div id="push" ><a href="http://www.52zhongtou.com/ProjectView/Detail/pid/560">贡献祝福</a></div>-->
     <div id="signature" class="signature">↑</div>
     </div>
@@ -94,7 +95,36 @@
 
     </script>
 <!--<audio src="./data/3worldwishes/BreathAndLife.mp3" autoPlay="autoPlay" loop="loop"> </audio>>-->
-    <audio src="data/3worldwishes/EdSheeran_Perfect.mp3" autoPlay="autoPlay" loop="loop"> </audio>>
+    <audio id="audio" controls="controls" src="data/3worldwishes/EdSheeran_Perfect.mp3" autoPlay="autoPlay" loop="loop"> </audio>>
+    <span class="playSpan" onclick="play()">播放</span>
+    <script>
+        function play() {
+            var audio = document.getElementById("audio");
+            var span = document.getElementsByTagName("span")[0];
+            if (span.className == "playSpan") {
+                audio.play();
+                span.innerText = "暂停";
+                span.className = "stopSpan";
+                /*  监听音频播放完成  */
+                audio.addEventListener(
+                    "ended",
+                    function() {
+                        span.innerText = "播放";
+                        span.className = "playSpan";
+                    },
+                    false
+                );
+            } else {
+                audio.pause();
+                span.innerText = "播放";
+                span.className = "playSpan";
+            }
+        };
+        function startPlay() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        };
+    </script>
 </body>
 
 </html>
