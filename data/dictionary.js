@@ -2,11 +2,20 @@ window.worldObj = {
     "0Asian": {
         "urls": [{
             "type": "image",
-            "url": "../data/3worldwishes/0Asian/05QingHai|100|37/image/江苏|常州|杨宇.jpg"
+            "url": "../data/3worldwishes/0Asian/05QingHai|100|37/image/上海|松江|Frank.jpg"
+        },{
+            "type": "image",
+            "url": "../data/3worldwishes/0Asian/05QingHai|100|37/image/上海|徐汇|Alex.jpg"
         },{
             "type": "image",
             "url": "../data/3worldwishes/0Asian/05QingHai|100|37/image/上海|宝山|ace一家.jpg"
+        },{
+            "type": "image",
+            "url": "../data/3worldwishes/0Asian/05QingHai|100|37/image/上海|金桥|Hung.jpg"
         }, {
+            "type": "image",
+            "url": "../data/3worldwishes/0Asian/05QingHai|100|37/image/江苏|常州|杨宇.jpg"
+        },{
             "type": "image",
             "url": "../data/3worldwishes/0Asian/07TaiWan|121|26/image/广东|暨南大学|陈倩同学.jpg"
         },{
@@ -37,6 +46,9 @@ window.worldObj = {
         "urls": [{
             "type": "image",
             "url": "../data/3worldwishes/1NorthAmerica/1USA|-72|42/image/湖南|长沙|陈倩同学.jpg"
+        },{
+            "type": "image",
+            "url": "../data/3worldwishes/1NorthAmerica/1USA|-72|42/image/甘肃|陇南|李章东.jpg"
         }],
         "urlJson": "../data/3worldwishes/1NorthAmerica/info.json"
     },
